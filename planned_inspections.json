@@ -1,0 +1,506 @@
+{
+	"data": {
+		"planner": {
+			"displayStrings": {
+				"dateSummary": {
+					"numInspectionsTemplatedOne": "{count} inspection",
+					"numInspectionsTemplatedPlural": "{count} inspections",
+					"numAuctionsTemplatedOne": "{count} auction",
+					"numAuctionsTemplatedPlural": "{count} auctions",
+					"noAvailableEvents": "No events"
+				},
+				"noEvents": {
+					"forDate": "Looks like this day’s completely free!",
+					"forPlanner": "Whenever you add an event to your plan, it'll show up here."
+				},
+				"timezoneAlert": {
+					"header": "There's more than one timezone in this plan",
+					"body": "Times haven’t been converted to your current timezone. Depending on where you are, you may need to check them."
+				}
+			},
+			"dates": [
+				{
+					"date": {
+						"value": "2023-04-25T00:00:00+10:00",
+						"display": {
+							"dayOfMonth": "25",
+							"dayOfWeek": "Tue",
+							"longDate": "Tuesday 25 April"
+						}
+					},
+					"times": []
+				},
+				{
+					"date": {
+						"value": "2023-04-26T00:00:00+10:00",
+						"display": {
+							"dayOfMonth": "26",
+							"dayOfWeek": "Wed",
+							"longDate": "Wednesday 26 April"
+						}
+					},
+					"times": [
+						{
+							"time": {
+								"display": "10:00 am–4:00 pm",
+								"timezone": "+10:00"
+							},
+							"entries": [
+								{
+									"title": "Inspection",
+									"eventId": "bc681d4d-e6be-469b-ade7-cade4a0b520e",
+									"source": "REA",
+									"status": "ACTIVE",
+									"message": null,
+									"address": "20.07/116 Bathurst Street, Sydney, NSW 2000",
+									"listing": {
+										"id": "137887670",
+										"media": {
+											"mainImage": {
+												"templatedUrl": "https://i2.au.reastatic.net/{size}/240b5ea4012339b0c2e3c80292bb3c61b7c287ae0efad3d78aa1eb0db5f5152c/image.jpg"
+											}
+										},
+										"generalFeatures": {
+											"bathrooms": {
+												"value": 2
+											},
+											"bedrooms": {
+												"value": 2
+											},
+											"parkingSpaces": {
+												"value": 1
+											}
+										},
+										"propertySizes": {
+											"building": null,
+											"land": null
+										}
+									}
+								},
+								{
+									"title": "Inspection",
+									"eventId": "73cce54b-a59a-46e5-9b6b-bb733cc65d47",
+									"source": "REA",
+									"status": "ACTIVE",
+									"message": null,
+									"address": "19.05/116  Bathurst Street, Sydney, NSW 2000",
+									"listing": {
+										"id": "137835974",
+										"media": {
+											"mainImage": {
+												"templatedUrl": "https://i2.au.reastatic.net/{size}/90db77ace6e1f39e45392d5792f214123c657ec929651705ce058dbb897f9c4e/image.jpg"
+											}
+										},
+										"generalFeatures": {
+											"bathrooms": {
+												"value": 1
+											},
+											"bedrooms": {
+												"value": 0
+											},
+											"parkingSpaces": {
+												"value": 0
+											}
+										},
+										"propertySizes": {
+											"building": null,
+											"land": null
+										}
+									}
+								}
+							]
+						},
+						{
+							"time": {
+								"display": "10:30 am–11:00 am",
+								"timezone": "+10:00"
+							},
+							"entries": [
+								{
+									"title": "Inspection",
+									"eventId": "39bccae2-89a6-4414-a00a-d8e07259b649",
+									"source": "REA",
+									"status": "ACTIVE",
+									"message": null,
+									"address": "X01/60 Bathurst St, Sydney, NSW 2000",
+									"listing": {
+										"id": "139225139",
+										"media": {
+											"mainImage": {
+												"templatedUrl": "https://i2.au.reastatic.net/{size}/5025ea13ff6f8406dfb16a702e140cd206bc0789d7a29da721a633bbd5e1ce06/image.jpg"
+											}
+										},
+										"generalFeatures": {
+											"bathrooms": {
+												"value": 2
+											},
+											"bedrooms": {
+												"value": 2
+											},
+											"parkingSpaces": {
+												"value": 1
+											}
+										},
+										"propertySizes": {
+											"building": {
+												"displayValue": "88",
+												"sizeUnit": {
+													"displayValue": "m²"
+												}
+											},
+											"land": null
+										}
+									}
+								}
+							]
+						},
+						{
+							"time": {
+								"display": "11:15 am–11:45 am",
+								"timezone": "+10:00"
+							},
+							"entries": [
+								{
+									"title": "Inspection",
+									"eventId": "60b8b694-7ab6-4c57-8208-b41767c42cfe",
+									"source": "REA",
+									"status": "ACTIVE",
+									"message": null,
+									"address": "205/85 Harrington Street, The Rocks, NSW 2000",
+									"listing": {
+										"id": "141610000",
+										"media": {
+											"mainImage": {
+												"templatedUrl": "https://i2.au.reastatic.net/{size}/c8d8f7f1731d387709d8e1b1ae2e842ee07792656f5f569c40b6f11e049c9a36/image.jpg"
+											}
+										},
+										"generalFeatures": {
+											"bathrooms": {
+												"value": 2
+											},
+											"bedrooms": {
+												"value": 2
+											},
+											"parkingSpaces": {
+												"value": 1
+											}
+										},
+										"propertySizes": {
+											"building": null,
+											"land": {
+												"displayValue": "108",
+												"sizeUnit": {
+													"displayValue": "m²"
+												}
+											}
+										}
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"date": {
+						"value": "2023-04-27T00:00:00+10:00",
+						"display": {
+							"dayOfMonth": "27",
+							"dayOfWeek": "Thu",
+							"longDate": "Thursday 27 April"
+						}
+					},
+					"times": [
+						{
+							"time": {
+								"display": "10:00 am–4:00 pm",
+								"timezone": "+10:00"
+							},
+							"entries": [
+								{
+									"title": "Inspection",
+									"eventId": "4f5d4360-9acc-483c-95ce-f31b69d94bc5",
+									"source": "REA",
+									"status": "ACTIVE",
+									"message": null,
+									"address": "19.05/116  Bathurst Street, Sydney, NSW 2000",
+									"listing": {
+										"id": "137835974",
+										"media": {
+											"mainImage": {
+												"templatedUrl": "https://i2.au.reastatic.net/{size}/90db77ace6e1f39e45392d5792f214123c657ec929651705ce058dbb897f9c4e/image.jpg"
+											}
+										},
+										"generalFeatures": {
+											"bathrooms": {
+												"value": 1
+											},
+											"bedrooms": {
+												"value": 0
+											},
+											"parkingSpaces": {
+												"value": 0
+											}
+										},
+										"propertySizes": {
+											"building": null,
+											"land": null
+										}
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"date": {
+						"value": "2023-04-28T00:00:00+10:00",
+						"display": {
+							"dayOfMonth": "28",
+							"dayOfWeek": "Fri",
+							"longDate": "Friday 28 April"
+						}
+					},
+					"times": []
+				},
+				{
+					"date": {
+						"value": "2023-04-29T00:00:00+10:00",
+						"display": {
+							"dayOfMonth": "29",
+							"dayOfWeek": "Sat",
+							"longDate": "Saturday 29 April"
+						}
+					},
+					"times": [
+						{
+							"time": {
+								"display": "12:45 pm–1:15 pm",
+								"timezone": "+10:00"
+							},
+							"entries": [
+								{
+									"title": "Inspection",
+									"eventId": "eccd3447-b802-470f-a498-b716f663eff8",
+									"source": "REA",
+									"status": "ACTIVE",
+									"message": null,
+									"address": "205/85 Harrington Street, The Rocks, NSW 2000",
+									"listing": {
+										"id": "141610000",
+										"media": {
+											"mainImage": {
+												"templatedUrl": "https://i2.au.reastatic.net/{size}/c8d8f7f1731d387709d8e1b1ae2e842ee07792656f5f569c40b6f11e049c9a36/image.jpg"
+											}
+										},
+										"generalFeatures": {
+											"bathrooms": {
+												"value": 2
+											},
+											"bedrooms": {
+												"value": 2
+											},
+											"parkingSpaces": {
+												"value": 1
+											}
+										},
+										"propertySizes": {
+											"building": null,
+											"land": {
+												"displayValue": "108",
+												"sizeUnit": {
+													"displayValue": "m²"
+												}
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"time": {
+								"display": "1:00 pm–1:30 pm",
+								"timezone": "+10:00"
+							},
+							"entries": [
+								{
+									"title": "Inspection",
+									"eventId": "eb00e351-a234-48ec-9ac2-96411877fc66",
+									"source": "REA",
+									"status": "ACTIVE",
+									"message": null,
+									"address": "X01/60 Bathurst St, Sydney, NSW 2000",
+									"listing": {
+										"id": "139225139",
+										"media": {
+											"mainImage": {
+												"templatedUrl": "https://i2.au.reastatic.net/{size}/5025ea13ff6f8406dfb16a702e140cd206bc0789d7a29da721a633bbd5e1ce06/image.jpg"
+											}
+										},
+										"generalFeatures": {
+											"bathrooms": {
+												"value": 2
+											},
+											"bedrooms": {
+												"value": 2
+											},
+											"parkingSpaces": {
+												"value": 1
+											}
+										},
+										"propertySizes": {
+											"building": {
+												"displayValue": "88",
+												"sizeUnit": {
+													"displayValue": "m²"
+												}
+											},
+											"land": null
+										}
+									}
+								}
+							]
+						},
+						{
+							"time": {
+								"display": "1:15 pm–1:45 pm",
+								"timezone": "+10:00"
+							},
+							"entries": [
+								{
+									"title": "Inspection",
+									"eventId": "e6c12c48-1eee-4b4f-b3b0-24f73e11e2e8",
+									"source": "REA",
+									"status": "ACTIVE",
+									"message": null,
+									"address": "3501/2-4 Cunningham street, Haymarket, NSW 2000",
+									"listing": {
+										"id": "141682400",
+										"media": {
+											"mainImage": {
+												"templatedUrl": "https://i2.au.reastatic.net/{size}/1d3b1a7285f05e1f484d2cbd485a59514a26b6a4aff24d3f021a714584fdfd2a/image.jpg"
+											}
+										},
+										"generalFeatures": {
+											"bathrooms": {
+												"value": 3
+											},
+											"bedrooms": {
+												"value": 3
+											},
+											"parkingSpaces": {
+												"value": 2
+											}
+										},
+										"propertySizes": {
+											"building": null,
+											"land": null
+										}
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"date": {
+						"value": "2023-04-30T00:00:00+10:00",
+						"display": {
+							"dayOfMonth": "30",
+							"dayOfWeek": "Sun",
+							"longDate": "Sunday 30 April"
+						}
+					},
+					"times": []
+				},
+				{
+					"date": {
+						"value": "2023-05-01T00:00:00+10:00",
+						"display": {
+							"dayOfMonth": "1",
+							"dayOfWeek": "Mon",
+							"longDate": "Monday 1 May"
+						}
+					},
+					"times": []
+				},
+				{
+					"date": {
+						"value": "2023-05-02T00:00:00+10:00",
+						"display": {
+							"dayOfMonth": "2",
+							"dayOfWeek": "Tue",
+							"longDate": "Tuesday 2 May"
+						}
+					},
+					"times": []
+				},
+				{
+					"date": {
+						"value": "2023-05-03T00:00:00+10:00",
+						"display": {
+							"dayOfMonth": "3",
+							"dayOfWeek": "Wed",
+							"longDate": "Wednesday 3 May"
+						}
+					},
+					"times": []
+				},
+				{
+					"date": {
+						"value": "2023-05-04T00:00:00+10:00",
+						"display": {
+							"dayOfMonth": "4",
+							"dayOfWeek": "Thu",
+							"longDate": "Thursday 4 May"
+						}
+					},
+					"times": []
+				},
+				{
+					"date": {
+						"value": "2023-05-05T00:00:00+10:00",
+						"display": {
+							"dayOfMonth": "5",
+							"dayOfWeek": "Fri",
+							"longDate": "Friday 5 May"
+						}
+					},
+					"times": []
+				},
+				{
+					"date": {
+						"value": "2023-05-06T00:00:00+10:00",
+						"display": {
+							"dayOfMonth": "6",
+							"dayOfWeek": "Sat",
+							"longDate": "Saturday 6 May"
+						}
+					},
+					"times": []
+				},
+				{
+					"date": {
+						"value": "2023-05-07T00:00:00+10:00",
+						"display": {
+							"dayOfMonth": "7",
+							"dayOfWeek": "Sun",
+							"longDate": "Sunday 7 May"
+						}
+					},
+					"times": []
+				},
+				{
+					"date": {
+						"value": "2023-05-08T00:00:00+10:00",
+						"display": {
+							"dayOfMonth": "8",
+							"dayOfWeek": "Mon",
+							"longDate": "Monday 8 May"
+						}
+					},
+					"times": []
+				}
+			]
+		}
+	}
+}
